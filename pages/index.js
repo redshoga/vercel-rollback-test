@@ -13,6 +13,14 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        
+        <pre>
+          <div>version: 0.1</div>
+          <ul>
+            <li>NEXT_PUBLIC_ENV_KEY_1: {process.env.NEXT_PUBLIC_ENV_KEY_1}</li>
+            <li>NEXT_PUBLIC_ENV_KEY_2: {process.env.NEXT_PUBLIC_ENV_KEY_2}</li>
+          </ul>
+        </pre>
 
         <p className={styles.description}>
           Get started by editing{' '}
